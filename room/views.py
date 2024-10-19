@@ -3,6 +3,7 @@ from django.shortcuts import render
 
 from .models import Room, Message
 
+# only for authentucation purposes
 @login_required
 def rooms(request):
     rooms = Room.objects.all()

@@ -6,3 +6,5 @@ urlpatterns = [
     path('rooms/', include('room.urls')),
     path('admin/', admin.site.urls),
 ]
+
+# room is where main thing will happen
